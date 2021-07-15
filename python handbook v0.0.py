@@ -4,8 +4,7 @@ only cli(right now")
 this was made so i can learn python
 make a project
 and find python functions easly
-credit mendel rubin
-email: mendelrubins@gmail.com
+email: mendelsshop@gmail.com
 """
 def ifs():
     print("""#      if statement             #\n
