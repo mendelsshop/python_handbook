@@ -63,6 +63,12 @@ def inputs():
     print(boxTop + l1 + l2 + l3 + boxBottom)
 
 
+def math():
+    l1 = "#     math function            #\n"
+    l2 = "# + is for addition            #\n"
+    l3 = "# - is for subtraction         #\n"
+    print(boxTop + l1 + l2 + l3 + boxBottom)
+
 def main():
     print("   1.Show all explanations \n   2.Search \n   3.Quit ")
 
