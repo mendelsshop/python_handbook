@@ -69,6 +69,7 @@ def math():
     l3 = "# - is for subtraction         #\n"
     print(boxTop + l1 + l2 + l3 + boxBottom)
 
+
 def main():
     print("   1.Show all explanations \n   2.Search \n   3.Quit ")
 
