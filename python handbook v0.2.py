@@ -9,23 +9,23 @@ email: mendelsshop@gmail.com
 boxTop = "#################################\n"
 boxBottom = "#################################\n"
 
-pythondict = {"while loops": "whileloos()", "if statements": "ifs()", "for loops": "forloops()"}  # create dictinary for searching
+searchlist = {"while loops": "whiles()", "if statements": "ifs()", "for loops": "fors()", "print statements": "prints()"}  # create dictionary for searching
 
 
 def option1():
-    for key in pythondict:  # for loop that lists all names in dictionary
-        exec(pythondict[key])
+    for key in searchlist:  # for loop that lists all names in dictionary
+        exec(searchlist[key])
     main()
 
 
 def option2():
-    for key in pythondict:  # for loop that lists all names in dictionary
+    for key in searchlist:  # for loop that lists all names in dictionary
         print(key)
     search = input("what are you searching for: ")  # ask for a name in dictinary
-    for key in pythondict:
+    for key in searchlist:
         if key == search:
-            exec(pythondict[key])
-        main()
+            exec(searchlist[key])
+    main()
 
 
 def ifs():
@@ -35,16 +35,23 @@ def ifs():
     print(boxTop+l1+l2+boxBottom)
 
 
-def whileloos():
+def whiles():
     l1 = "#      while loops              #\n"
     l2 = "#                               #\n"
     print(boxTop + l1 + l2 + boxBottom)
 
 
-def forloops():
+def fors():
     l1 = "#      for loops               #\n"
     l2 = "#                              #\n"
     print(boxTop + l1 + l2 + boxBottom)
+
+
+def prints():
+    l1 = "#      print statements        #\n"
+    l2 = "# a print statement is how     #\n"
+    l3 = "# you make the computer talk   #\n"
+    print(boxTop + l1 + l2 + l3 + boxBottom)
 
 
 def main():
