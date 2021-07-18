@@ -36,7 +36,9 @@ def ifs():
 
 
 def whileloos():
-    print(boxTop + """#      whileloops               #\n#                               #""", boxBottom)
+    l1 = "#      whileloops               #\n"
+    l2 = "# #"
+    print(boxTop + l1 +l2 + boxBottom)
 
 
 def main():
