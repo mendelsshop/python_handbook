@@ -7,9 +7,9 @@ and find python functions easily
 email: mendelsshop@gmail.com
 """
 boxTop = "#################################\n"
-boxBottom = "\n#################################\n"
+boxBottom = "#################################\n"
 
-pythondict = {"while loops": "whileloos()", "if statements": "ifs()"}  # create dictinary for searching
+pythondict = {"while loops": "whileloos()", "if statements": "ifs()", "for loops": "forloops()"}  # create dictinary for searching
 
 
 def option1():
@@ -30,15 +30,21 @@ def option2():
 
 def ifs():
     l1 = "#      if statements            #\n"
-    l2 = "# #"
+    l2 = "#                               #\n"
 
     print(boxTop+l1+l2+boxBottom)
 
 
 def whileloos():
-    l1 = "#      whileloops               #\n"
-    l2 = "# #"
-    print(boxTop + l1 +l2 + boxBottom)
+    l1 = "#      while loops              #\n"
+    l2 = "#                               #\n"
+    print(boxTop + l1 + l2 + boxBottom)
+
+
+def forloops():
+    l1 = "#      for loops               #\n"
+    l2 = "#                              #\n"
+    print(boxTop + l1 + l2 + boxBottom)
 
 
 def main():
