@@ -30,9 +30,11 @@ def option2():
 
 def ifs():
     l1 = "#      if statements            #\n"
-    l2 = "#                               #\n"
+    l2 = "# an if statament is telling    #\n"
+    l3 = "# the computer to do something  #\n"
+    l4 = "# if a condotion is met         #\n"
 
-    print(boxTop+l1+l2+boxBottom)
+    print(boxTop + l1 + l2 + l3 + l4 + boxBottom)
 
 
 def whiles():
@@ -59,6 +61,8 @@ def inputs():
     l2 = "# this is how we ask the user  #\n"
     l3 = "# for input                    #\n"
     print(boxTop + l1 + l2 + l3 + boxBottom)
+
+
 def main():
     print("   1.Show all explanations \n   2.Search \n   3.Quit ")
 
