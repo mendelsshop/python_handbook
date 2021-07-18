@@ -9,7 +9,7 @@ email: mendelsshop@gmail.com
 boxTop = "#################################\n"
 boxBottom = "#################################\n"
 
-searchlist = {"while loops": "whiles()", "if statements": "ifs()", "for loops": "fors()", "print statements": "prints()"}  # create dictionary for searching
+searchlist = {"while loops": "whiles()", "if statements": "ifs()", "for loops": "fors()", "print statements": "prints()", "user input": "inputs()"}  # create dictionary for searching
 
 
 def option1():
@@ -54,6 +54,11 @@ def prints():
     print(boxTop + l1 + l2 + l3 + boxBottom)
 
 
+def inputs():
+    l1 = "#     user input               #\n"
+    l2 = "# this is how we ask the user  #\n"
+    l3 = "# for input                    #\n"
+    print(boxTop + l1 + l2 + l3 + boxBottom)
 def main():
     print("   1.Show all explanations \n   2.Search \n   3.Quit ")
 
