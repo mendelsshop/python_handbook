@@ -25,7 +25,18 @@ def option2():
     for key in searchlist:
         if key == search:
             exec(searchlist[key])
+        elif key == "main menu":
+            main()
     main()
+
+
+def option3():
+    search = input("what are you searching for: ")  # ask for a name in dictinary
+    for key in searchlist:
+        if key == search:
+            exec(searchlist[key])
+        elif key == "main menu":
+            main()
 
 
 def ifs():
@@ -71,15 +82,19 @@ def maths():
 
 
 def main():
-    print("   1.Show all explanations \n   2.Search \n   3.Quit ")
+    print("   1.Show all explanations \n   2.Show all operations \n   3.Quit ")
 
     choose = input("choose an option: ")
-    if choose == "1":
-        option1()
-    elif choose == "2":
-        option2()
-    elif choose == "3":
-        quit
+    for key in searchlist:
+        if choose == "1":
+            option1()
+        elif choose == "2":
+            option2()
+        elif choose == key:
+            exec(searchlist[key])
+            main()
+        elif choose == "4":
+            quit()
 
 
 main()
