@@ -5,7 +5,7 @@ this was made so i can learn python
 make a project
 and find python functions easily
 email: mendelsshop@gmail.com
-now using
+now usingd
 """
 boxTop = "#################################\n"
 boxBottom = "#################################\n"
