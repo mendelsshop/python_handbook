@@ -82,19 +82,24 @@ def maths():
 
 
 def main():
-    print("   1.Show all explanations \n   2.Show all operations \n   3.Quit ")
+    print("search for python help or use the other options\n   1.Show all explanations\n   2.Show all operations\n   3.Quit")
 
-    choose = input("choose an option: ")
+    choose = input("search or choose an option\n> ")
     for key in searchlist:
         if choose == "1":
             option1()
         elif choose == "2":
             option2()
-        elif choose == key:
+        if choose == key:
             exec(searchlist[key])
             main()
-        elif choose == "4":
-            quit()
+        elif choose == "3":
+            exit()
+    for key in searchlist:
+        if choose != key and choose != "1" and choose != "2" and choose != "3":
+            print(choose, "is not an option, please try again")
+            main()
 
 
+print("welcome to Python_handbook")
 main()
