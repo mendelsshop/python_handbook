@@ -6,6 +6,7 @@ make a project
 and find python functions easily
 email: mendelsshop@gmail.com
 """
+# needs to be done: elif else variables data types
 boxTop = "#################################\n"
 boxBottom = "#################################\n"
 
